@@ -9,3 +9,7 @@ This repo is just to keep track as I work through unit 2 of [Get Programming Wit
 - I learned how to set up a minimal Express server and serve a simple GET request.
 - Nodemon was introduced as a tool to ease the development cycle by automatically restarting the server any time a file is changed.
 - The purpose of the "scripts" section the `package.json` was clarified.
+
+### Lesson 9
+
+- [in progress]
