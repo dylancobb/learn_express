@@ -12,4 +12,5 @@ This repo is just to keep track as I work through unit 2 of [Get Programming Wit
 
 ### Lesson 9
 
-- [in progress]
+- I learned how `app.use()` can be used to define middleware functions to be used with Express.
+- I learned about the Model View Controller application architecture, and extracted callbacks to separate modules in the `/controllers` directory.
