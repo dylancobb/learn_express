@@ -18,3 +18,7 @@ This repo is just to keep track as I work through unit 2 of [Get Programming Wit
 ### Lesson 10
 
 - EJS, and templating with layouts and partials were introduced as a way to control the view and modularise the way in which HTML/CSS is served.
+
+### Lesson 11
+
+- Learned how to handle errors and serve static content via Express.
