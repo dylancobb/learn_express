@@ -14,3 +14,7 @@ This repo is just to keep track as I work through unit 2 of [Get Programming Wit
 
 - I learned how `app.use()` can be used to define middleware functions to be used with Express.
 - I learned about the Model View Controller application architecture, and extracted callbacks to separate modules in the `/controllers` directory.
+
+### Lesson 10
+
+- EJS, and templating with layouts and partials were introduced as a way to control the view and modularise the way in which HTML/CSS is served.
