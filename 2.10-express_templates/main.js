@@ -22,6 +22,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/name/:myName", homeController.respondWithName);
+app.get("/about", homeController.renderAbout);
 
 app.listen(app.get('port'), () => {
 	console.log(`Server running at http://localhost:${ app.get('port') }`);
