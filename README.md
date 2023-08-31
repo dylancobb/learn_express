@@ -22,3 +22,7 @@ This repo is just to keep track as I work through unit 2 of [Get Programming Wit
 ### Lesson 11
 
 - Learned how to handle errors and serve static content via Express.
+
+### Lesson 12
+
+- Brought everything learned so far together to make a site with dynamic EJS templating, static content serving, error handling and a somewhat realistic routing scenario.
