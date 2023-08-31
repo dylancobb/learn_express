@@ -1,6 +1,8 @@
+'use strict';
+
 const express = require('express'),
 	app = express(),
-	layouts = require('express-ejs-layouts');
+	layouts = require('express-ejs-layouts'),
 	homeController = require('./controllers/homeController'),
 	errorController = require('./controllers/errorController');
 
@@ -19,6 +21,9 @@ app.get('/', homeController.showIndex);
 app.get('/courses', homeController.showCourses);
 app.get('/contact', homeController.showContact);
 app.post('/contact', homeController.postSignUpForm);
+
+app.use(errorController.pageNotFoundError);
+app.use(errorController.internalServerError);
 
 app.listen(app.get('port'), () => {
 	console.log(`Server running at http://localhost:${ app.get('port') }`);
